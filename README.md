@@ -8,5 +8,7 @@ For more information see: [http://mooseframework.org/create-an-app/](http://moos
 
 How to run: 
 make -j4
+
 cd problems
+
 ../eel-opt input.i #replace input.i by whatever input file
