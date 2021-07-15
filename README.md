@@ -11,4 +11,4 @@ make -j4
 
 cd problems
 
-../eel-opt input.i #replace input.i by whatever input file
+../eel-opt -i input.i #replace input.i by whatever input file
