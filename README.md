@@ -7,6 +7,9 @@ For more information see: [http://mooseframework.org/create-an-app/](http://moos
 
 
 How to run: 
+
+conda activate moose
+
 make -j4
 
 cd problems
