@@ -6,6 +6,8 @@
 /****************************************************************/
 #include "Migration.h"
 
+registerMooseObject("EelApp", Migration);
+
 template <>
 InputParameters
 validParams<Migration>()

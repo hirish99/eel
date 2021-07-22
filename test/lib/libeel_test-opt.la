@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags='  -fopenmp'
 
 # Libraries that this one depends upon.
-dependency_libs=' /Users/hirish/projects/moose/modules/module_loader/lib/libmodule_loader_with-opt.la'
+dependency_libs=' /Users/hirish/projects/moose/modules/module_loader/lib/libmodule_loader_with_cr_ray_hc_tm_pf-opt.la /Users/hirish/projects/moose/modules/phase_field/lib/libphase_field-opt.la /Users/hirish/projects/moose/modules/tensor_mechanics/lib/libtensor_mechanics-opt.la /Users/hirish/projects/moose/modules/heat_conduction/lib/libheat_conduction-opt.la /Users/hirish/projects/moose/modules/ray_tracing/lib/libray_tracing-opt.la /Users/hirish/projects/moose/modules/chemical_reactions/lib/libchemical_reactions-opt.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

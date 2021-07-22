@@ -6,6 +6,8 @@
 /****************************************************************/
 #include "Conduction.h"
 
+registerMooseObject("EelApp", Conduction);
+
 template <>
 InputParameters
 validParams<Conduction>()

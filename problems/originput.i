@@ -261,7 +261,7 @@
     [../]
     # Mobility defined by D*c/(R*T), whereR*T is normalized by the chemical potential
     # M0*(1-h) is the effective diffusion coefficient; cl*(1-h) is the ion concentration
-   [./Mobilitycoefficient]
+   [./Mobility coefficient]
     type = DerivativeParsedMaterial
     function = '-M0*(1-h)*cl*(1-h)'  #c is -c
     f_name = D
@@ -279,7 +279,7 @@
     derivative_order = 1
   [../]
   # Migration coefficient.
-  [./Migrationcoefficient]
+  [./Migration coefficient]
     type = DerivativeParsedMaterial
     function = '-cl*(1-h)*AA*M0*(1-h)'
     args = 'eta w'
@@ -331,7 +331,7 @@
 [Executioner]
   type = Transient
   scheme = bdf2
-  solve_type =Newton
+  #solve_type =Newton
   l_max_its = 50
   l_tol = 1e-4
   nl_max_its = 20

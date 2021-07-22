@@ -6,6 +6,8 @@
 /****************************************************************/
 #include "Kinetics.h"
 
+registerMooseObject("EelApp", Kinetics);
+
 template <>
 InputParameters
 validParams<Kinetics>()
